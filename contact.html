@@ -1,135 +1,48 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تواصل معنا</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff0f5;
-            margin: 0;
-            color: #5a3045;
-        }
-
-        header {
-            background-color: #d87093;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
-
-        nav {
-            background-color: #8f4265;
-            text-align: center;
-            padding: 15px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 10px;
-        }
-
-        .container {
-            background-color: white;
-            width: 80%;
-            max-width: 500px;
-            margin: 30px auto;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 3px 8px #e6b8ca;
-        }
-
-        h2 {
-            text-align: center;
-            color: #c0527b;
-        }
-
-        label {
-            display: block;
-            margin-top: 15px;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 8px;
-            border: 1px solid #d87093;
-            border-radius: 8px;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        button {
-            width: 100%;
-            background-color: #d87093;
-            color: white;
-            padding: 12px;
-            border: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #8f4265;
-        }
-
-        footer {
-            background-color: #8f4265;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>🌸 عالم الجمال والعناية 🌸</h1>
-        <p>نحن سعداء بتواصلك معنا</p>
-    </header>
+<header>
+<h1>تواصل معنا 💌</h1>
+<p>يسعدنا استقبال آرائكم ومقترحاتكم</p>
+</header>
 
-    <nav>
-        <a href="index.html">الرئيسية</a>
-        <a href="skin.html">البشرة</a>
-        <a href="hair.html">الشعر</a>
-        <a href="login.html">تسجيل الدخول</a>
-        <a href="contact.html">تواصل معنا</a>
-    </nav>
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="hair.html">العناية بالشعر</a>
+<a href="body.html">العناية بالجسم</a>
+<a href="login.html">تسجيل الدخول</a>
+<a href="contact.html">تواصل معنا</a>
+</nav>
 
-    <div class="container">
-        <h2>تواصلي معنا 💗</h2>
+<div class="container">
+<div class="form-box">
+<h2>أرسلي لنا رسالة</h2>
 
-        <p>إذا كانت لديكِ أي أسئلة أو اقتراحات، يسعدنا استقبال رسالتك.</p>
+<form>
+<label>الاسم:</label>
+<input type="text" placeholder="اكتبي اسمك" required>
 
-        <form onsubmit="alert('شكراً لتواصلك معنا!'); return false;">
+<label>البريد الإلكتروني:</label>
+<input type="email" placeholder="اكتبي بريدك الإلكتروني" required>
 
-            <label for="name">الاسم:</label>
-            <input type="text" id="name" name="name"
-                   placeholder="اكتبي اسمك" required>
+<label>الرسالة:</label>
+<textarea rows="5" placeholder="اكتبي رسالتك هنا" required></textarea>
 
-            <label for="email">البريد الإلكتروني:</label>
-            <input type="email" id="email" name="email"
-                   placeholder="example@email.com" required>
+<button type="submit">إرسال الرسالة</button>
+</form>
+</div>
+</div>
 
-            <label for="message">رسالتك:</label>
-            <textarea id="message" name="message" rows="5"
-                      placeholder="اكتبي رسالتك هنا..." required></textarea>
-
-            <button type="submit">إرسال الرسالة</button>
-
-        </form>
-    </div>
-
-    <footer>
-        <p>جميع الحقوق محفوظة © 2026</p>
-    </footer>
+<footer>
+<p>جمالك سر جمالك © 2026</p>
+</footer>
 
 </body>
 </html>
