@@ -104,6 +104,5 @@ document.addEventListener("DOMContentLoaded", function() {
             } 
         });
     }
-
-});
 alert("مرحباً بك في موقع جمالك سر جمالك 🌸");
+});
