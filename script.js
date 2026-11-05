@@ -56,7 +56,52 @@ document.addEventListener("DOMContentLoaded", function() {
             else {
                 alert("شكراً لتواصلك معنا 🌸");
                 contactForm.reset();
-            }
+           /* تنسيق صفحة تسجيل الدخول */
+.login-box {
+    width: 85%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff0f5;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px #d8a0b0;
+}
+
+.login-box h2 {
+    color: #d63384;
+}
+
+.login-box label {
+    display: block;
+    margin: 15px;
+    color: #8b2455;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.login-box button {
+    width: 95%;
+    padding: 12px;
+    margin: 8px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #a82060;
+}
+            } 
         });
     }
 
